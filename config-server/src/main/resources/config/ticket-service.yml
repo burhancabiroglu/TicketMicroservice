@@ -1,0 +1,33 @@
+server:
+  port: ${STARTER_PORT:8002}
+
+spring:
+  application:
+    name: ticket-service
+  datasource:
+    url: jdbc:postgresql://localhost:5432/ticketdb
+    username: root
+    password: root
+  jpa:
+    database: postgresql
+    hibernate:
+      ddl-auto: update
+
+  rabbitmq:
+    username: root
+    password: root
+
+  cloud:
+    stream:
+      bindings:
+        output:
+          destination: msqueue
+
+
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: ${EUREKA_SERVER_URL:http://localhost:8050/eureka/}
+  instance:
+    hostname: ${EUREKA_SERVER_HOSTNAME:localhost}

@@ -1,0 +1,40 @@
+server:
+  port: ${SERVER_PORT:80}
+  error:
+    whitelabel:
+      enabled: false
+
+spring:
+  application:
+    name: api-gateway
+
+  cloud:
+    gateway:
+      routes:
+        - id: account-service
+          uri: ${ACCOUNT_SERVICE_URI:http://localhost:8001}
+          predicates:
+            - Path=/account/**
+          filters:
+            - RewritePath=/(?<segment>.*), /$\{segment}
+
+        - id: account-service
+          uri: https://localhost:8001
+          predicates:
+            - Path=/account/**
+          filters:
+            - RewritePath=/(?<segment>.*), /$\{segment}
+
+        - id: ticket-service
+          uri: ${TICKET_SERVICE_URI:http://localhost:8002}
+          predicates:
+            - Path=/ticket/**
+          filters:
+            - RewritePath=/(?<segment>.*), /$\{segment}
+
+        - id: ticket-service
+          uri: https://localhost:8002
+          predicates:
+            - Path=/ticket/**
+          filters:
+            - RewritePath=/(?<segment>.*), /$\{segment}

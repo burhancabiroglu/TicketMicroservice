@@ -1,0 +1,19 @@
+server:
+  port: ${STARTER_PORT:8001}
+
+spring:
+  application:
+    name: account-service
+  data:
+    mongodb:
+      database: accountdb
+      username: root
+      password: root
+      port: 27017
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: ${EUREKA_SERVER_URL:http://localhost:8050/eureka/}
+  instance:
+    hostname: ${EUREKA_SERVER_HOSTNAME:localhost}
