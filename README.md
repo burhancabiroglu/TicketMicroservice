@@ -1,7 +1,7 @@
   # TICKET SYSTEM MICROSERVICE
 
   <div align-items="center"; text-align: "center";>
-    <a href=""><img height="50px"; src="assets/java-logo.gif" alt=""></a>
+    <a href=""><img height="50px"; src="assets/java-logo.png" alt=""></a>
     <a href=""><img height="50px" src="assets/spring-logo.png" alt=""></a>
     <a href=""><img height="50px" src="assets/intellij-logo.png" alt=""></a>
   </div>
