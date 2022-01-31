@@ -134,7 +134,7 @@
         ticket-service with RabbitMQ. It sends the content of this message to the user's e-mail address.
       </li>
     </ol>
-    <div>
+    </div>
 </foreignObject>
 
 </svg>
