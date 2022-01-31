@@ -1,33 +1,11 @@
+<style>
 
-
-
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>README</title>
-  <style>
-    .item {
-      height: 50px;
-    }
-
-    img {
-      height: 500px;
-    }
 
     img {
       height: 500px;
     }
     ul>li>img {
       height: 20px;
-    }
-
-
-
-    @media screen and (max-width:600px) {
-      img {
-        height: 100px;
-      }
     }
 
     div {
@@ -45,7 +23,6 @@
       border-radius: 20%;
       display: inline-block;
       margin: 5px;
-      color: var(--clr-neon);
     }
 
     .bad {
@@ -58,18 +35,20 @@
       list-style: none;
     }
   </style>
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-</head>
 
-<body>
   <h2>TICKET SYSTEM MICROSERVICE</h2>
   </hr>
 
   <ul>
-    <li class="badge cli"><a href=""><img class="item" src="assets/java-logo.png" alt=""></a></li>
-    <li class="badge cli"><a href=""><img class="item" src="assets/spring-logo.png" alt=""></a></li>
-    <li class="badge cli"><a href=""><img class="item" src="assets/intellij-logo.png" alt=""></a></li>
+    <li style = "
+      background-color: white;
+      box-shadow: 0 0 1px cornflowerblue;
+      border-radius: 20%;
+      display: inline-block;
+      margin: 5px;
+    " ><a href=""><img height: "50px"; src="assets/java-logo.png" alt=""></a></li>
+    <li class="badge cli"><a href=""><img height: "50px" src="assets/spring-logo.png" alt=""></a></li>
+    <li class="badge cli"><a href=""><img height: "50px" src="assets/intellij-logo.png" alt=""></a></li>
   </ul>
   <h3>Abstract</h3>
   <p>
