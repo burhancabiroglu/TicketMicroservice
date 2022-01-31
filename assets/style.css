@@ -1,0 +1,19 @@
+img {
+  height: 500px;
+}
+@media screen and (max-width:6s00px){
+  img{
+    height: 100px;
+  }
+}
+
+div {
+ align-items: center;
+ text-align: center;
+}
+
+li{
+  display: inline-block;
+  margin: 5px;
+  
+}
