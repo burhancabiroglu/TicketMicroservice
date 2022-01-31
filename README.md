@@ -1,54 +1,10 @@
-<style>
+  # TICKET SYSTEM MICROSERVICE
 
-
-    img {
-      height: 500px;
-    }
-    ul>li>img {
-      height: 20px;
-    }
-
-    div {
-      align-items: center;
-      text-align: center;
-    }
-
-    ul>li {
-      list-style: circle;
-    }
-
-    .cli {
-      background-color: white;
-      box-shadow: 0 0 1px cornflowerblue;
-      border-radius: 20%;
-      display: inline-block;
-      margin: 5px;
-    }
-
-    .bad {
-      text-decoration: none;
-      color: white;
-      text-shadow: 0 0 50px white;
-    }
-
-    li>ul>li{
-      list-style: none;
-    }
-  </style>
-
-  <h2>TICKET SYSTEM MICROSERVICE</h2>
-  </hr>
-
-  <ul>
-    <li style = '
-      background-color: "white";
-      box-shadow: "0 0 1px cornflowerblue";
-      border-radius: "20%";
-      display: "inline-block";
-      margin: "5px";'><a href=""><img height: "50px"; src="assets/java-logo.png" alt=""></a></li>
-    <li class="badge cli"><a href=""><img height: "50px" src="assets/spring-logo.png" alt=""></a></li>
-    <li class="badge cli"><a href=""><img height: "50px" src="assets/intellij-logo.png" alt=""></a></li>
-  </ul>
+  <div align-items="center"; text-align: "center";>
+    <a href=""><img height="50px"; src="assets/java-logo.gif" alt=""></a>
+    <a href=""><img height="50px" src="assets/spring-logo.png" alt=""></a>
+    <a href=""><img height="50px" src="assets/intellij-logo.png" alt=""></a>
+  </div>
   <h3>Abstract</h3>
   <p>
     It is aimed to realize a ticket sales system that includes user information. Accordingly, it has been realized that
