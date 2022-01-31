@@ -5,7 +5,6 @@
     <a align=center href=""><img height="50px" src="assets/spring-logo.png" alt=""></a>
     <a align=center href=""><img height="50px" src="assets/intellij-logo.png" alt=""></a>
   </p>
-</br>
 
 ## Abstract
 
