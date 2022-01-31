@@ -1,9 +1,9 @@
   # TICKET SYSTEM MICROSERVICE
 
-  <div align-items="center"; text-align: "center";>
-    <a href=""><img height="50px"; src="assets/java-logo.png" alt=""></a>
-    <a href=""><img height="50px" src="assets/spring-logo.png" alt=""></a>
-    <a href=""><img height="50px" src="assets/intellij-logo.png" alt=""></a>
+  <div align-items=center; text-align=center;>
+    <a align=center href=""><img height="50px"; src="assets/java-logo.png" alt=""></a>
+    <a align=center href=""><img height="50px" src="assets/spring-logo.png" alt=""></a>
+    <a align=center href=""><img height="50px" src="assets/intellij-logo.png" alt=""></a>
   </div>
   <h3>Abstract</h3>
   <p>
