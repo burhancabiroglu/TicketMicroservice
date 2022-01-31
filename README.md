@@ -40,13 +40,12 @@
   </hr>
 
   <ul>
-    <li style = "
-      background-color: white;
-      box-shadow: 0 0 1px cornflowerblue;
-      border-radius: 20%;
-      display: inline-block;
-      margin: 5px;
-    " ><a href=""><img height: "50px"; src="assets/java-logo.png" alt=""></a></li>
+    <li style = '
+      background-color: "white";
+      box-shadow: "0 0 1px cornflowerblue";
+      border-radius: "20%";
+      display: "inline-block";
+      margin: "5px";'><a href=""><img height: "50px"; src="assets/java-logo.png" alt=""></a></li>
     <li class="badge cli"><a href=""><img height: "50px" src="assets/spring-logo.png" alt=""></a></li>
     <li class="badge cli"><a href=""><img height: "50px" src="assets/intellij-logo.png" alt=""></a></li>
   </ul>
