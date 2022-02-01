@@ -1,4 +1,4 @@
-  # TICKET SYSTEM MICROSERVICE
+  # Ticket System Microservice
 
   <p>
     <a align=center href=""><img height="50px"; src="assets/java-logo.png" alt=""></a>
